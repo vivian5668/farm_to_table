@@ -9,7 +9,6 @@ import Fruits from './Fruits';
 
 const Landing = props => {
   return (
-   <Router>
     <div className="hello">
       <Row>
         <Col s={1}></Col>
@@ -22,17 +21,17 @@ const Landing = props => {
         </Col>
         <Col s={4} className='landing_row'>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/Central.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>What a beautiful sunrise</p>
+                  <p>Our Farms</p>
                 </div>
             </div>
         </Col>
         <Col s={4} className='landing_row'>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/Market.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>What a beautiful sunrise</p>
+                  <p>Eat Seasonal</p>
                 </div>
             </div>
         </Col>
@@ -46,25 +45,23 @@ const Landing = props => {
         </Col>
         <Col s={4}>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/produce.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>What a beautiful sunrise</p>
+                  <p>Weekly Specials</p>
                 </div>
             </div>
         </Col>
         <Col s={4}>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/Box.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>What a beautiful sunrise</p>
+                  <p>Harvest Box</p>
                 </div>
             </div>
         </Col>
       </Row>
       <Route path="/Fruits" component={Fruits} />
     </div>
-
-  </Router>
   )
 }
 

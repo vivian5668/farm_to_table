@@ -13,19 +13,19 @@ const Listing = props => {
             <div className='list_item'>
                 <img src="../image/blueberry.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>What a beautiful organic blueberry!</p>
+                  <p>Blueberries</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Kiwis.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Fresh Organic Kiwis</p>
+                  <p>Kiwis</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/mandarine.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Mandarines from Dan's Farm</p>
+                  <p>Mandarine Oranges</p>
                 </div>
             </div>
 		</div>
@@ -33,21 +33,21 @@ const Listing = props => {
 
 		<div className='list_row'>
             <div className='list_item'>
-                <img src="../image/Market.jpeg" alt="Farm" />
+                <img src="../image/Blackberries.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Organic Market</p>
+                  <p>Blackberries</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Mutsu.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Fresh Mutsu!</p>
+                  <p>Mutsu Apples</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Orangw.JPG" alt="Farm" />
                 <div className="text-block">
-                  <p>Sweet Oranges!</p>
+                  <p>Oranges</p>
                 </div>
             </div>
 		</div>
@@ -56,19 +56,19 @@ const Listing = props => {
             <div className='list_item'>
                 <img src="../image/strawberry.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Hand-picked strawberries</p>
+                  <p>Strawberries</p>
                 </div>
             </div>
             <div className='list_item'>
-                <img src="../image/Box.jpg" alt="Farm" />
+                <img src="../image/Apples.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Fresh produce, better living~</p>
+                  <p>Cameo Apples</p>
                 </div>
             </div>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/Apples5.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Daniel's Organic Farm</p>
+                  <p>Gala Apples</p>
                 </div>
             </div>
 		</div>

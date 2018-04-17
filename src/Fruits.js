@@ -13,19 +13,19 @@ const Fruits = props => {
             <div className='list_item'>
                 <img src="../image/Apples.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Crispy Apples</p>
+                  <p>Fuji Apples</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Apples2.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Sweet Apples</p>
+                  <p>Cameo Apples</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Apples3.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Organic Apples</p>
+                  <p>Gala Apples</p>
                 </div>
             </div>
 		</div>
@@ -35,19 +35,19 @@ const Fruits = props => {
             <div className='list_item'>
                 <img src="../image/Apples4.jpg" alt="Farm" />
                 <div className="text-block">
-                  <p>Sweet Apples</p>
+                  <p>Empire Apples</p>
                 </div>
             </div>
             <div className='list_item'>
                 <img src="../image/Apples5.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Fresh Apples</p>
+                  <p>Pink Lady Apples</p>
                 </div>
             </div>
             <div className='list_item'>
-                <img src="../image/Farm.jpg" alt="Farm" />
+                <img src="../image/Mutsu.jpeg" alt="Farm" />
                 <div className="text-block">
-                  <p>Spring Apples</p>
+                  <p>Mutsu Apples</p>
                 </div>
             </div>
 		</div>
