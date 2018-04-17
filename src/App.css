@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  display: inline-block;
+  /* display: inline-block; */
+  color: black;
 }
 .nav {
   list-style: none;
@@ -9,7 +10,11 @@
   display: flex;
   justify-content: space-around;
   background-color: #A8303E;
+
 }
+/* .nav2 {
+  background-color: #A8303E;
+} */
 .fab fa-linkedin-in fa-lg {
   /* padding-left: 10px; */
   display: flex;
@@ -19,4 +24,14 @@
 }
 .fab fa-github fa-lg {
   /* padding-right: 10em; */
+}
+.navbar {
+  height: auto;
+  width: 100%;
+  position:relative;
+  top: -130px;
+  z-index: 100;
+}
+.container {
+  width: 100%;
 }
