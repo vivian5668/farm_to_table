@@ -6,6 +6,7 @@ import Nav from './Nav.js';
 import Landing from './Landing';
 import Listing from './Listing';
 import About from './About';
+import Fruits from './Fruits';
 
 
 
@@ -14,7 +15,6 @@ class App extends Component {
     return (
       <div className="App">
           <Nav />
-          <Landing />
       </div>
     );
   }
