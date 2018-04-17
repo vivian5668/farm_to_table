@@ -19,9 +19,8 @@ const Landing = props => {
         <Col s={4} className='landing_row'>
             <div className='list_item'>
  
-                <img src="nature.jpg" alt="Norway" />
+                <img src="../image/Farm.jpg" alt="Norway" />
                 <div className="text-block"> 
-                  <h4>Nature</h4>
                   <p>What a beautiful sunrise</p>
                 </div>
             </div>
