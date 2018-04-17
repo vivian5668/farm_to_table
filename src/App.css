@@ -9,7 +9,11 @@
   display: flex;
   justify-content: space-around;
   background-color: #A8303E;
+
 }
+/* .nav2 {
+  background-color: #A8303E;
+} */
 .fab fa-linkedin-in fa-lg {
   /* padding-left: 10px; */
   display: flex;
@@ -19,4 +23,10 @@
 }
 .fab fa-github fa-lg {
   /* padding-right: 10em; */
+}
+.navbar {
+  height: auto;
+  width: auto;
+  position:relative;
+  z-index: -20;
 }

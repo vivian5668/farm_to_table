@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import {Button, Icon, Navbar, NavItem} from 'react-materialize';
 import Nav from './Nav.js';
-import Landing from './Landing';
-import Listing from './Listing';
-import About from './About';
+import Landing from './Landing.js';
+import Listing from './Listing.js';
+import About from './About.js';
 
 
 
