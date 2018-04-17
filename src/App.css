@@ -1,4 +1,22 @@
 .App {
   text-align: center;
+  display: inline-block;
 }
-
+.nav {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #A8303E;
+}
+.fab fa-linkedin-in fa-lg {
+  /* padding-left: 10px; */
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2px;
+  list-style: none;
+}
+.fab fa-github fa-lg {
+  /* padding-right: 10em; */
+}
