@@ -19,12 +19,13 @@ const Nav = props => {
 
       <Router>
        <div>
-         <nav>
-        <Link to="/Landing" component={Landing}>Home</Link>
+         <nav className="nav">
+        <Link to="/Landing" component={Landing}><i class="fas fa-home"></i></Link>
         <Link to="/Listing" component={Listing}>Listing</Link>
         <Link to="/About" component={About}>About</Link>
-        {/* <NavItem href='get-started.html'><Icon>Cart</Icon></NavItem> */}
-        <Link to= "#" ><i class="material-icons">shopping_cart</i></Link>
+        <Link to="#" component={About}>How It Works</Link>
+        <Link to= "#" ><i class="fas fa-search"></i></Link>
+        <Link to= "#" ><i class="fas fa-shopping-cart"></i></Link>
       </nav>
         <Route exact path="/Landing" component={Landing} />
         <Route path="/Listing" component={Listing} />
