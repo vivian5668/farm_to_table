@@ -2,4 +2,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color:;
+}
+
+#landing_button {
+	margin: 50vh 10px 0 10px;
+}
+
+#landing_button2 {
+	margin: 50vh 10px 0 10px;
+}
+
+#landing_button3 {
+	margin: 50vh 10px 0 10px;
 }

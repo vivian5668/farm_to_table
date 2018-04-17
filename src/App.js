@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import {Button, Icon, Navbar, NavItem} from 'react-materialize';
 import Nav from './nav.js';
+import Landing from './Landing';
+import Listing from './Listing';
+import About from './About';
+
 
 
 class App extends Component {
@@ -15,6 +19,7 @@ class App extends Component {
             <Button floating icon='publish' className='green' node='a' href='http://www.google.com'/>
             <Button floating icon='attach_file' className='blue' node='a' href='http://www.google.com'/>
           </Button>
+          <Landing />
       </div>
     );
   }
