@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Button, Icon} from 'react-materialize'
+import {Button, Icon, Navbar, NavItem} from 'react-materialize';
+import Nav from './nav.js';
 
 
 class App extends Component {
