@@ -5,12 +5,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 
 
-const Detail = props => {
+const Fruits = props => {
   return (
       <div>
-        
+        This is the Fruits Page
       </div>
   )
 }
 
-export default Detail;
+export default Fruits;
