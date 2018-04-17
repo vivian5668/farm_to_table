@@ -12,6 +12,5 @@ const Nav = props => {
         <NavItem href='components.html'>Components</NavItem>
       </Navbar>
     )
-  
   }
 export default Nav;

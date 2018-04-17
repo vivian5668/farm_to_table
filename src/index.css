@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color:;
+  text-align: center;
 }
 
 #landing_button {
@@ -16,3 +16,21 @@ body {
 #landing_button3 {
 	margin: 50vh 10px 0 10px;
 }
+
+.list_item {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	padding: 200px;
+}
+
+.list_row {
+	text-align: center;
+}
+
+
+
+
+
+
+
