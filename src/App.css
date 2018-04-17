@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  display: inline-block;
+  /* display: inline-block; */
+  color: black;
 }
 .nav {
   list-style: none;
@@ -26,7 +27,11 @@
 }
 .navbar {
   height: auto;
-  width: auto;
+  width: 100%;
   position:relative;
-  z-index: -20;
+  top: -130px;
+  z-index: 100;
+}
+.container {
+  width: 100%;
 }

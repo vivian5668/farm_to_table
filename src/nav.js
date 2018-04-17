@@ -18,7 +18,7 @@ const Nav = props => {
     return (
 
       <Router>
-       <div>
+       <div className="container">
          <nav class="black" className="nav">
         <Link to="/Landing" component={Landing}><i class="fas fa-home"></i></Link>
         <Link to="/Listing" component={Listing}>Listing</Link>
