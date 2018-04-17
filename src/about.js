@@ -19,13 +19,13 @@ const About = props => {
         </Row>
         <Row>
           <Col s={3} className='center aboutcol'>
-              <img src='./img/emily.png' />
-              <p className='abouttext'>Emily Hannan</p>
+              <img src='./image/DV.jpg' />
+              <p className='abouttext'>Daniel Vancura</p>
               <div className='iconlist'>
-                <a href='https://github.com/hannan-emily'>
+                <a href='https://github.com/danielrvancura'>
                   <i className='fab fa-github fa-lg'></i>
                 </a>
-                <a href='https://www.linkedin.com/in/emilyhannan'>
+                <a href='https://www.linkedin.com/in/daniel-vancura/'>
                   <i className='fab fa-linkedin-in fa-lg'></i>
                 </a>
               </div>
